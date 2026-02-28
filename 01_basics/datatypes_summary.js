@@ -34,3 +34,25 @@ const myFunction = function () {
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
+
+// ******************************------------------------------**************************
+
+// Stack (Primitive type)   |   Heap (Non primitive type)
+
+let myYoutubename = "Naveentiwaridotcom"
+let anotherName = myYoutubename
+anotherName = "Stranger Things"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+  email: "naveen@example.com",
+  upi: "naveen@okaxis" 
+}
+
+let userTwo = userOne
+userTwo.email = "compounder@example.com"
+
+console.log(userOne)
+console.log(userTwo)
