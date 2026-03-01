@@ -3,7 +3,7 @@
 
 //console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('Naveen-gta')
+const gameName = new String('Naveen-gta-com')
 //console.log(gameName [0]);
 //console.log(gameName.__proto__);
 
@@ -20,3 +20,9 @@ console.log(anotherName);
 const newStringOne ="  Naveen  "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+const url = "https://www.naveen.com/naveen.%30tiwari"
+console.log(url.replace('%30', '-'))
+console.log(url.includes('kamlesh'))
+
+console.log(gameName.split('-'))
