@@ -12,8 +12,20 @@ const users = {
 // users.username = "kavin"
 // users.welcomeMessage();
 
-function chai(){
-    console.log(this)
+// function chai(){
+//     let username = "Naveen"
+//     console.log(this.username)
+// }
+
+// chai()
+
+// const chai = function(){
+//     let username = "Naveen"
+//     console.log(this.username)
+// }
+const chai = () =>{
+    let username = "Naveen"
+    console.log(this.username)
 }
 
 chai()
